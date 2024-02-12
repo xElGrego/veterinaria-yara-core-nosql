@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{210E9668-AD43-4F62-92E2-66A8D6E97178}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "veterinaria-yara-core-nosql.api", "veterinaria-yara-core-nosql.api\veterinaria-yara-core-nosql.api.csproj", "{E57FF521-5366-4BD8-8DB3-A9F3A09A3C7C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "veterinaria-yara-core-nosql.domain", "veterinaria-yara-core-nosql.domain\veterinaria-yara-core-nosql.domain.csproj", "{56173663-624C-46D6-B73A-3CF06C888C3C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "veterinaria-yara-core-nosql.application", "veterinaria-yara-core-nosql.application\veterinaria-yara-core-nosql.application.csproj", "{E67CACEA-A798-4CCF-B841-39B06873B3E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "veterinaria-yara-core-nosql.infrastructure", "veterinaria-yara-core-nosql.infrastructure\veterinaria-yara-core-nosql.infrastructure.csproj", "{0082065F-5708-4D29-9846-1821B2ECA941}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Loggin", "Common.Loggin\Common.Loggin.csproj", "{27043977-FCFF-452A-82EC-300974045D66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E57FF521-5366-4BD8-8DB3-A9F3A09A3C7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E57FF521-5366-4BD8-8DB3-A9F3A09A3C7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E57FF521-5366-4BD8-8DB3-A9F3A09A3C7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E57FF521-5366-4BD8-8DB3-A9F3A09A3C7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56173663-624C-46D6-B73A-3CF06C888C3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56173663-624C-46D6-B73A-3CF06C888C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56173663-624C-46D6-B73A-3CF06C888C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56173663-624C-46D6-B73A-3CF06C888C3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E67CACEA-A798-4CCF-B841-39B06873B3E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E67CACEA-A798-4CCF-B841-39B06873B3E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E67CACEA-A798-4CCF-B841-39B06873B3E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E67CACEA-A798-4CCF-B841-39B06873B3E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0082065F-5708-4D29-9846-1821B2ECA941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0082065F-5708-4D29-9846-1821B2ECA941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0082065F-5708-4D29-9846-1821B2ECA941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0082065F-5708-4D29-9846-1821B2ECA941}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27043977-FCFF-452A-82EC-300974045D66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27043977-FCFF-452A-82EC-300974045D66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27043977-FCFF-452A-82EC-300974045D66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27043977-FCFF-452A-82EC-300974045D66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E57FF521-5366-4BD8-8DB3-A9F3A09A3C7C} = {210E9668-AD43-4F62-92E2-66A8D6E97178}
+		{56173663-624C-46D6-B73A-3CF06C888C3C} = {210E9668-AD43-4F62-92E2-66A8D6E97178}
+		{E67CACEA-A798-4CCF-B841-39B06873B3E9} = {210E9668-AD43-4F62-92E2-66A8D6E97178}
+		{0082065F-5708-4D29-9846-1821B2ECA941} = {210E9668-AD43-4F62-92E2-66A8D6E97178}
+		{27043977-FCFF-452A-82EC-300974045D66} = {210E9668-AD43-4F62-92E2-66A8D6E97178}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1DEE16E-49DF-472B-8414-9854CD00D004}
+	EndGlobalSection
+EndGlobal
